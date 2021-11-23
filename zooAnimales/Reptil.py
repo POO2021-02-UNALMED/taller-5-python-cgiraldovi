@@ -1,4 +1,6 @@
-from zooAnimales.animal import Animal
+from zooAnimales import Animal
+
+
 class Reptil(Animal):
     listado = []
     iguanas = 0

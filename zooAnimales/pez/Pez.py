@@ -18,10 +18,11 @@ class Pez(Animal):
 
         #getter y setter
 
+    def getColorEscamas(self):
+        return self._colorEscamas
 
-
-
-
+    def getCantidadAletas(self):
+        return self._cantidadAletas
 
         #fin getter y setter
 

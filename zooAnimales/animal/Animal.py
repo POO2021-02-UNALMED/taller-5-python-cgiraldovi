@@ -18,7 +18,17 @@ class Animal:
 
         #getter y setter
 
+    def getNombre(self):
+        return self._nombre
 
+    def getEdad(self):
+        return self._edad
+
+    def getHabitat(self):
+        return self._habitat
+
+    def getGenero(self):
+        return self._genero
 
 
 

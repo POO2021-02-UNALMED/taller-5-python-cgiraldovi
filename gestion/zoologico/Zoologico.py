@@ -9,9 +9,11 @@ class Zoologico:
 
     #getter y setter
 
+    def getNombre(self):
+        return self._nombre
 
-
-
+    def getZona(cls):
+        return cls.zonas
 
 
     #fin getter y setter

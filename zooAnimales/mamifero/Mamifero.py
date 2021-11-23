@@ -15,10 +15,11 @@ class Mamifero(Animal):
 
         #getter y setter
 
+    def isPelaje(self):
+        return self._pelaje
 
-
-
-
+    def getPatas(self):
+        return self._patas
 
         #fin getter y setter
 

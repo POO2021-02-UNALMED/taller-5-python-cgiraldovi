@@ -17,7 +17,11 @@ class Anfibio(Animal):
         #getter y setter
 
 
+    def getColorPiel(self):
+        return self._colorPiel
 
+    def isVenenoso(self):
+        return self._venenoso
 
 
 

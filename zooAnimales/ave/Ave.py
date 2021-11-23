@@ -9,7 +9,7 @@ class Ave(Animal):
         super().__init__(edad)
         super().__init__(habitat)
         super().__init__(genero)
-        self._colorPiel = colorPlumas
+        self._colorPlumas = colorPlumas
         self.listado.append(self)
 
 
@@ -17,10 +17,8 @@ class Ave(Animal):
 
         #getter y setter
 
-
-
-
-
+    def getColorPlumas(self):
+        return self._colorPlumas
 
         #fin getter y setter
 

@@ -7,9 +7,11 @@ class Zona:
 
     #getter y setter
 
+    def getNombre(self):
+        return self._nombre
 
-
-
+    def getZoo(self):
+        return self._zoo
 
 
     #fin getter y setter

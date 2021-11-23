@@ -12,6 +12,18 @@ class Reptil(Animal):
         self._colorEscamas = colorEscamas
         self._largoCola = largoCola
 
+    #getter y setter
+
+    def getColorEscamas(self):
+        return self._colorEscamas
+
+    def getLargoCola(self):
+        return self._largoCola
+
+
+    #fin getter y setter
+
+
     def movimiento(self):
         return "reptar"
 
